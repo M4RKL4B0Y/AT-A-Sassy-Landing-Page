@@ -1,0 +1,155 @@
+.box {
+  max-width: 1100px;
+  padding: 0 30px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.btn-secondary, .btn-primary {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 3px;
+}
+.btn-secondary:hover, .btn-primary:hover {
+  transform: scale(0.8);
+}
+
+.btn-primary {
+  background-color: #001c47;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #a2d0fc;
+  color: black;
+}
+
+.box {
+  max-width: 1100px;
+  padding: 0 30px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FFC300;
+  font-family: Trebuchet MS, Arial, sans-serif;
+  line-height: 1;
+}
+
+img {
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero {
+  background-color: #000814;
+  color: white;
+  height: 600px;
+}
+.hero nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 10%;
+}
+.hero nav ul {
+  list-style: none;
+  display: flex;
+}
+.hero nav li {
+  padding: 15px;
+}
+.hero nav a {
+  color: #a2d0fc;
+  font-size: 18px;
+  font-weight: 700;
+}
+.hero nav a:hover {
+  color: #a2d0fc;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  padding: 0 30px;
+}
+.hero img {
+  max-width: 100%;
+}
+.hero h1 {
+  font-size: 55px;
+}
+.hero .m-1 {
+  margin: 1rem;
+}
+.hero .my-1 {
+  margin: 1rem 0;
+}
+.hero .p-1 {
+  padding: 1rem;
+}
+.hero .py-1 {
+  padding: 1rem 0;
+}
+.hero .m-2 {
+  margin: 2rem;
+}
+.hero .my-2 {
+  margin: 2rem 0;
+}
+.hero .p-2 {
+  padding: 2rem;
+}
+.hero .py-2 {
+  padding: 2rem 0;
+}
+.hero .m-3 {
+  margin: 3rem;
+}
+.hero .my-3 {
+  margin: 3rem 0;
+}
+.hero .p-3 {
+  padding: 3rem;
+}
+.hero .py-3 {
+  padding: 3rem 0;
+}
+.hero .m-4 {
+  margin: 4rem;
+}
+.hero .my-4 {
+  margin: 4rem 0;
+}
+.hero .p-4 {
+  padding: 4rem;
+}
+.hero .py-4 {
+  padding: 4rem 0;
+}
+.hero .m-5 {
+  margin: 5rem;
+}
+.hero .my-5 {
+  margin: 5rem 0;
+}
+.hero .p-5 {
+  padding: 5rem;
+}
+.hero .py-5 {
+  padding: 5rem 0;
+}/*# sourceMappingURL=style.css.map */
